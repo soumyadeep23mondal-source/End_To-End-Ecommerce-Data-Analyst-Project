@@ -55,6 +55,6 @@ An end-to-end business intelligence and analytics pipeline designed to examine e
   * *Type Casting & Structuring:* Promoted headers, enforced strict data typing (Datetimes, Decimals, Text), and filtered out invalid rows.
   * *Conditional Custom Columns:* Implemented conditional parameters to classify fulfillment efficiency metrics (e.g., "Late" vs. "On Time" delivery benchmarking).
   * *Sorting & Indexing:* Generated custom index attributes and month sequence mappings to enforce chronological integrity on visual timelines.
-* **Quarterly Analysis Integration:** Configured custom quarter parameters and time intelligence measures to evaluate performance shifts across distinct operational windows (e.g., tracking order distribution volume split between Q1 at 129 orders / 46.07% and Q2 at 151 orders / 53.93%).
+* **Quarterly Analysis Integration:** Configured custom quarter parameters and time intelligence measures to evaluate performance shifts across distinct operational windows (e.g., tracking order distribution volume split between Q1 at 129 orders 46.07% and Q2 at 151 orders / 53.93%).
 * **Custom DAX Measures:** Configured specialized expressions for dynamic time intelligence, delivery duration calculation, and status grouping.
 * **Omnichannel Payment Tracking:** Visualized transaction adoption across major gateways (**COD**, **NetBanking**, **Wallet**, **UPI**, **Card**).
