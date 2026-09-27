@@ -25,14 +25,14 @@ An end-to-end business intelligence and analytics pipeline designed to examine e
 2. **Database Management & SQL Analytics (MySQL):** Staged cleaned relational records into a MySQL database via SQLAlchemy to manage 333 transactional orders. Executed complex queries to analyze category traction, fulfillment breakdowns, and payment behavior.
 3. **Data Modeling & Visualization (Power BI):** Integrated MySQL Workbench with Power BI to construct an interactive executive dashboard. Applied advanced data modeling techniques to support robust enterprise reporting.
 
----
+
 
 ## Strategic Business Impact
 * **Financial Transparency:** Established comprehensive tracking of **₹3.17M+** in Net Account revenue and **₹633K+** in total profit across transactions.
 * **Category Performance Alignment:** Mapped volume distributions across **Electronics** (115), **Fashion** (105), **Home** (59), and **Furniture** (54) to guide inventory planning.
 * **Fulfillment Monitoring:** Analyzed baseline order execution across Delivered (85), Cancelled (89), Returned (85), and Pending (74) states to evaluate supply chain efficiency.
 
----
+
 
 ## Core Project Architecture & Insights
 
@@ -40,9 +40,9 @@ An end-to-end business intelligence and analytics pipeline designed to examine e
 * Handling Missing Values: Detected and resolved null or missing records within the raw Excel dataset to prevent calculation errors.
 * Text Standardization: Standardized text entries across categorical columns (such as categories, order statuses, and payment modes) to eliminate formatting discrepancies, extra spaces, or casing inconsistencies.
 * Duplicate Removal: Dropped duplicate records and rows from the dataset to establish a clean, accurate source of truth.
-* Sales Calculation: Computed total sales using quantity and unit price
-* Net Account Revenue: Engineered net account figures by factoring in applicable discounts
-* Profit Estimation: Calculated standardized net profit based on net account revenue
+* Sales Calculation: Computed total sales using quantity and unit price.
+* Net Account Revenue: Engineered net account figures by factoring in applicable discounts.
+* Profit Estimation: Calculated standardized net profit based on net account revenue.
 
 ### 2. Relational Database & SQL Analysis (MySQL)
 * Deployed a structured SQL database schema to ingest and query 333 transactional orders.
