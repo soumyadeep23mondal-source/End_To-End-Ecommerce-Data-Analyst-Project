@@ -37,12 +37,12 @@ An end-to-end business intelligence and analytics pipeline designed to examine e
 ## Core Project Architecture & Insights
 
 ### 1. Data Cleaning & Feature Engineering (Python)
-#Data Cleaning
+#### Data Cleaning
 * Handling Missing Values: Detected and resolved null or missing records within the raw Excel dataset to prevent calculation errors.
 * Text Standardization: Standardized text entries across categorical columns (such as categories, order statuses, and payment modes) to eliminate formatting discrepancies, extra spaces, or casing inconsistencies.
 * Duplicate Removal: Dropped duplicate records and rows from the dataset to establish a clean, accurate source of truth.
   
-# Feature Engineering
+#### Feature Engineering
 * Sales Calculation: Computed total sales using quantity and unit price.
 * Total Revenue: Engineered net account figures by factoring in applicable discounts.
 * Profit Calculation: Calculated standardized net profit based on total revenue.
